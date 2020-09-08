@@ -1,0 +1,119 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'PT Sans', sans-serif;
+}
+.logo{
+	padding: 8px;
+}
+.navbar-brand span{
+	font-weight: 700;
+}
+.navbar-section{
+	padding: 10px 0
+}
+.nav-1{
+	position: relative;
+	content: "";
+}
+.nav-2{
+	position: absolute;
+	top:0;
+	right: 0;
+	width: 66%;
+	background: #fff;
+	padding: 11px 0;
+}
+.nav-2 ul.menu-1 li a{
+	color: #b2b2b2;
+	font-size: 18px;
+}
+.nav-2 ul.menu-1 li{
+	margin-right: 20px;
+}
+.nav-2 ul.menu-1 li:last-child{
+	margin-right: 0px;
+}
+
+.search{
+	position: absolute;
+	right: 66%;
+	top: 0px;
+	z-index: 1;
+	background: #f6f6f6;
+	border-radius: 0 !important;
+	padding: 17px 17px;
+}
+
+.dropdown-toggle:after{
+
+	display: none;
+}
+.menu-2{
+	margin-right: 150px;
+}
+.menu-2 li.menu a{
+	position: relative;
+}
+.menu-2 li.menu a:after{
+	content: "";
+	position: absolute;
+	display: block;
+	width: 90%;
+	transform:scale(0);
+	height: 3px;
+	background-color: #1a54e7;
+	bottom: 0;
+	left: 5px;
+	top: 100%;
+	transition: all 0.3s linear;
+}
+
+.menu-2 li.menu a:hover:after{
+	
+	transform:scale(1);
+}
+
+
+
+ul.menu-2 li a{
+	font-size: 18px;
+	position: relative;
+}
+
+ul.menu-2 li a i{
+	font-size: 20px;
+
+}
+
+.carousel-caption {
+   
+    bottom: 50%;
+    transform: translateY(50%);
+}
+.carousel-link{
+
+	position: absolute;
+    left: 20%;
+    bottom: 35px;
+
+}
+.carousel-content{
+	position: absolute;
+	right: 20%;
+    bottom: 35px;
+    color: #fff;
+}
+.nav-content li{
+	margin-right: 20px;
+}
+ul.nav-content li:first-child{
+	color: #b0b0b0;
+	border-right: 2px solid;
+	padding-right: 15px;
+}
+ul.nav-content li:last-child{
+	color: #1a54e7;
+}
