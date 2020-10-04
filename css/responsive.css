@@ -1,24 +1,333 @@
 @media(max-width: 1399px){
 
+li.nav-item {
+    margin-left: 15px;
+}
+
+ul.right-menu ul.dropdown-menu{
+	left: -112px;
+}
+.carousel-caption img{
+	width: 125px;
+}
+.carousel-caption h5 {
+    font-size: 37px;
+}
+.trip h2 {
+    font-size: 18px;
+}
+.banner-caption h1 {
+   font-size: 45px;
+}
+.banner-caption p{
+	font-size: 17px;
+}
+
 }
 
 @media(max-width: 1199px){
 
+li.nav-item a {
+    color: #b2b2b2;
+    font-size: 17px;
+}
+
+li.nav-item{
+	margin-left: 2px;
+}
+.carousel-caption img{
+	width: 100px;
+}
+
+.carousel-caption h5 {
+    font-size: 32px;
+}
+.banner-caption h1 {
+    font-size: 37px;
+}
+.banner-caption p {
+    font-size: 14px;
+}
+.portfolio h3 {
+    font-size: 17px;
+}
 
 }
 
-@media(max-width: 991px){
 
+@media(max-width: 991px){
+	.navbar {
+    padding: 0;
+    background-color: #1a54e7;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 0.55);
+    border-color: rgba(0, 0, 0, 0);
+}
+button.navbar-toggler span{
+	width: 7px;
+	height: 7px;
+	background-color: #fff;
+	display: inline-block;
+	border-radius: 50%;
+}
+.navbar-nav{
+	flex-direction: row;
+}
+.right-menu{
+	flex-direction: column;
+}
+.navbar-collapse {
+    align-items: center;
+    width: 41%;
+    position: absolute;
+    right: 0;
+    top: 100%;
+}
+li.nav-item{
+	margin-left: 15px;
+}
+div.icon {
+    width: 50px;
+    height: 70px;
+    text-align: center;
+    background-color: transparent !important;
+    line-height: 50px;
+}
+div.icon .dropdown-menu form{
+ width: 100%;
+}
+.navbar-light .navbar-toggler:focus {
+    color: rgb(255 255 255);
+    border-color: rgba(0, 0, 0, 0);
+}
+ul.right-menu{
+ 
+ display: block;
+ text-align: right;
+}	
+ul.right-menu li{
+	margin-left: 0;
+	margin-right: 35px;
+}
+ul.right-menu li a:after{
+	display: none;
+}
+ul.right-menu li:last-child{
+	display: none;
+}
+.carousel-caption img {
+    width: 80px;
+    margin-bottom: 15px;
+}
+.carousel-caption h5 {
+    font-size: 27px;
+}
+.carousel-link a{
+	font-size: 14px;
+}
+.carousel-control-prev {  
+    height: 40px;
+    width: 40px;
+}
+.carousel-control-next {  
+    height: 40px;
+    width: 40px;
+}
+.trip{
+	padding: 0;
+}
+.trip h2 {
+    font-size: 13px;
+}
+.banner-caption h1 {
+    font-size: 26px;
+}
+.banner-caption {
+    transform: translate(-50%,-30%);
+}
+.banner-img > p {
+    right: 20px;
+}
+.banner-img:hover p{
+	bottom: 10px;
+}
+.portfolio-section{
+	padding-bottom: 60px;
+}
+.portfolio{
+	margin: 25px 10px;
+}
+.newsletter-section h2 {
+    font-size: 35px;
+}
+.newsletter-section p {
+    color: #8baeff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.newsletter-section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+footer{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
 }
 
 @media(max-width: 767px){
+.navbar-collapse {
+    width: 26%;  
+}
+.navbar-nav, ul.right-menu {
+    flex-direction: column;
+    display: block;
+    text-align: center;
+}
+ul.right-menu li{
+	margin-right: 0;
+	margin-left: 15px;
+}
+.carousel-control-next {
+    height: 30px;
+    width: 30px;
+}
+.carousel-control-prev {
+    height: 30px;
+    width: 30px;
+}
+.carousel-control-next i, .carousel-control-prev i{
+	font-size: 25px;
+}
+
+.icon{
+	display: none;
+}
+.carousel-caption h5 {
+    font-size: 20px;
+}
+.carousel-link {
+    left: 15%;
+    bottom: 8px;
+}
+.carousel-link a {
+    font-size: 12px;
+}
+.carousel-content {
+    position: absolute;
+    right: 4%;
+    bottom: 9px;
+    color: #fff;
+}
+ul.nav-content{
+	align-items: center;
+}
+ul.nav-content li:first-child {
+    font-size: 14px;
+}
+.trip h2 {
+    font-size: 18px;
+}
+.banner-caption h1 {
+    font-size: 18px;
+}
+.portfolio-section {
+    padding-top: 50px;
+}
+.portfolio {
+   margin: 0;
+}
+.portfolio h3 {
+    font-size: 14px;
+}
+.portfolio p {
+	font-size: 14px;
+}
+.newsletter-section h2 {
+    font-size: 30px;
+}
+.newsletter-section p{
+	font-size: 18px;
+}
 
 }
 
 @media(max-width: 575px){
 
+	.navbar-brand h4{
+		font-size: 18px;
+	}
+
+	button.navbar-toggler span {
+    width: 5px;
+    height: 5px;
+}
+.navbar-brand {
+    padding: 20px 0;
+}
+.navbar-collapse {
+    width: 100%;
+}
+.navbar-nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+ul.right-menu{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.carousel-caption h5 {
+    font-size: 12px;
+}
+.carousel-link, .carousel-content{
+	display: none;
 }
 
+.carousel-control-prev {
+    height: 20px;
+    width: 20px;
+}
+.carousel-control-next {
+    height: 20px;
+    width: 20px;
+}
+.carousel-control-next i, .carousel-control-prev i {
+    font-size: 15px;
+}
+.carousel-caption img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+.trip h2 {
+    font-size: 14px;
+}
+
+.trip-section {
+    padding-bottom: 35px;
+    background-color: #f6f6f6;
+}
+.banner-caption p {
+    display: none;
+}
+.banner-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.portfolio-section{
+	padding: 30px 0;
+}
+.portfolio {
+    margin: 10px 0;
+}
+footer p{
+	font-size: 16px;
+}
+
+}
 @media(max-width: 300px){
 
 }

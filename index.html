@@ -17,35 +17,28 @@
   </head>
   <body>
 <!-- Navbar-section -->
-  <nav class="navbar  nav-1 navbar-expand-lg navbar-dark bg-primary">
-  <div class="container-fluid">
-    <div class="row ">
-      <div class="col-11">
-        <div class="row">
-          <div class="col-xl-4 col-lg-4">
-        <div class="logo text-right">
-        <a class="navbar-brand" href="#">Blog <span>template</span></a>
-        </div>
-        </div>
-        </div>
-      </div>
-    </div>
-  </div>  
-  </nav>
-
-  <button class="btn search" type="submit"><img src="images/search.png" alt="search" class="img-fluid"></button>
-
-  <nav class="navbar nav-2 navbar-expand-lg">
-
+  <nav class="sticky-top navbar navbar-expand-lg navbar-light">
   <div class="container">
-
+    <a class="navbar-brand" href="#">
+      <h4>Blog <strong> template</strong></h4>
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <span></span>
+      <span></span>
+      <span></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto mb-2 mb-lg-0 align-items-center">
+        <div class="icon dropdown ">
+          <a href="#" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false"><img src="images/search.png"></i></a>
 
-      <ul class="navbar-nav menu-1 mr-auto mb-2 mb-lg-0">
-        
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+             <form class="d-flex">
+            <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+          </form>
+
+          </div>
+        </div>
         <li class="nav-item">
           <a class="nav-link" aria-current="page" href="#">About</a>
         </li>
@@ -53,51 +46,53 @@
           <a class="nav-link" href="#">Cooperation</a>
         </li>
 
-        <li class="nav-item">
+         <li class="nav-item">
           <a class="nav-link" href="#">Contact</a>
         </li>
-
-        
       </ul>
 
-      <ul class="navbar-nav menu-2 mb-2 mb-lg-0">
-        
-        <li class="nav-item menu">
-          <a class="nav-link" aria-current="page" href="#">Nature</a>
-        </li>
+    <ul class="navbar-nav ml-auto right-menu align-items-center">
+      <li class="nav-item">
+          <a class="nav-link" href="#">Nature</a>
+      </li>
 
-         <li class="nav-item menu">
-          <a class="nav-link" aria-current="page" href="#">People</a>
-        </li>
+      <li class="nav-item">
+          <a class="nav-link" href="#">People</a>
+      </li>
 
-         <li class="nav-item menu">
-          <a class="nav-link" aria-current="page" href="#">Trips</a>
-        </li>
+      <li class="nav-item">
+          <a class="nav-link" href="#">Trips</a>
+      </li>
 
-         <li class="nav-item menu">
-          <a class="nav-link" aria-current="page" href="#">Animals</a>
-        </li>
+      <li class="nav-item">
+          <a class="nav-link" href="#">Animals</a>
+      </li>
 
-         <li class="nav-item menu">
-          <a class="nav-link" aria-current="page" href="#">Fashion</a>
-        </li>
+      <li class="nav-item">
+          <a class="nav-link" href="#">Fashion</a>
+      </li>
 
-         <li class="nav-item menu">
-          <a class="nav-link" aria-current="page" href="#">Tech</a>
-        </li>
+      <li class="nav-item">
+          <a class="nav-link" href="#">Tech</a>
+      </li>
 
-         <li class="nav-item dropdown">
+      <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
-            <i class="flaticon-open-menu"></i>
+            <span></span>
+            <span></span>
+            <span></span>
           </a>
+
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" href="#">Action</a></li>
             <li><a class="dropdown-item" href="#">Another action</a></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
-        </li>
+      </li>
 
-      </ul>
+      
+    </ul>
+     
     </div>
   </div>
 </nav>
@@ -109,7 +104,7 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="images/banner.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-md-block">
         <img src="images/client.png" class="img-fluid">
          <h5>Maecenas quis lobortis nunc. Nullam sit<br>
         vel odio congue vulputate a ut nisi.</h5>
@@ -129,7 +124,7 @@
     </div>
     <div class="carousel-item">
       <img src="images/banner.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-md-block">
       <img src="images/client.png" clas="img-fluid">
         <h5>Maecenas quis lobortis nunc. Nullam sit<br>
         vel odio congue vulputate a ut nisi.</h5>
@@ -149,7 +144,7 @@
     </div>
     <div class="carousel-item">
       <img src="images/banner.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-md-block">
         <img src="images/client.png" class="img-fluid">
          <h5>Maecenas quis lobortis nunc. Nullam sit<br>
         vel odio congue vulputate a ut nisi.</h5>
@@ -183,7 +178,7 @@
 <section class="trip-section">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-xl-5">
+      <div class="col-xl-5 col-md-6">
         <div class="trip">
           <div class="trip-img">
             <img src="images/trip.jpg" class="img-fluid">
@@ -194,7 +189,7 @@
           <p>11 septemvber 2016  |   <a href="#">John Doe</a></p>
         </div>
       </div>
-      <div class="col-xl-5">
+      <div class="col-xl-5 col-md-6">
         <div class="trip">
           <div class="trip-img">
             <img src="images/tech.jpg" class="img-fluid">
@@ -237,7 +232,7 @@
 <section class="portfolio-section">
   <div class="container">
     <div class="row">
-      <div class="col-xl-4">
+      <div class="col-lg-4 col-md-6 col-sm-6">
         <div class="portfolio">
           <div class="portfolio-img">
             <img src="images/portfolio-1.jpg" class="img-fluid w-100">
@@ -248,7 +243,7 @@
         </div>
       </div>
 
-        <div class="col-xl-4">
+        <div class="col-lg-4 col-md-6 col-sm-6">
         <div class="portfolio">
           <div class="portfolio-img">
             <img src="images/portfolio-2.jpg" class="img-fluid w-100">
@@ -259,7 +254,7 @@
         </div>
       </div>
 
-        <div class="col-xl-4">
+        <div class="col-lg-4 col-md-6 col-sm-6">
         <div class="portfolio">
           <div class="portfolio-img">
             <img src="images/portfolio-3.jpg" class="img-fluid w-100">
@@ -270,7 +265,7 @@
         </div>
       </div>
 
-        <div class="col-xl-4">
+        <div class="col-lg-4 col-md-6 col-sm-6">
         <div class="portfolio">
           <div class="portfolio-img">
             <img src="images/portfolio-4.jpg" class="img-fluid w-100">
@@ -281,7 +276,7 @@
         </div>
       </div>
 
-        <div class="col-xl-4">
+        <div class="col-lg-4 col-md-6 col-sm-6">
         <div class="portfolio">
           <div class="portfolio-img">
             <img src="images/portfolio-5.jpg" class="img-fluid w-100">
@@ -292,7 +287,7 @@
         </div>
       </div>
 
-        <div class="col-xl-4">
+        <div class="col-lg-4 col-md-6 col-sm-6">
         <div class="portfolio">
           <div class="portfolio-img">
             <img src="images/portfolio-6.jpg" class="img-fluid w-100">
@@ -311,7 +306,7 @@
 <section class="trip-section">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-xl-5">
+      <div class="col-xl-5 col-md-6">
         <div class="trip">
           <div class="trip-img">
             <img src="images/trip.jpg" class="img-fluid">
@@ -322,7 +317,7 @@
           <p>11 septemvber 2016  |   <a href="#">John Doe</a></p>
         </div>
       </div>
-      <div class="col-xl-5">
+      <div class="col-xl-5 col-md-6">
         <div class="trip">
           <div class="trip-img">
             <img src="images/tech.jpg" class="img-fluid">
@@ -346,7 +341,7 @@
     <p>Donec elementum dui semper, pretium dui quis, pretium nisl.</p>
 
     <div class="row justify-content-center">
-    <div class="col-4">
+    <div class="col-4 col-lg-5 col-md-6 col-sm-8 col-12">
        <div class="newsletter">
          <input type="text" class="form-control btn-custom">
         <div class="submit">
@@ -373,7 +368,20 @@
 
     <!-- Optional JavaScript -->
     <!-- Popper.js first, then Bootstrap JS -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+
+    <script>
+     $("body").niceScroll({
+      cursorcolor: "#1a54e7",
+      cursorwidth: "10px",
+      cursorborder: "none",
+      zindex: [9999],
+      scrollspeed: 80,
+      mousescrollstep: 50,
+     });
+    </script>
   </body>
 </html>
